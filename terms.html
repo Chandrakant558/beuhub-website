@@ -1,22 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terms & Conditions - BEUHub</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BEUHub – Terms &amp; Conditions</title>
+  <meta name="description" content="Terms &amp; Conditions (T&C) for the BEUHub mobile application." />
+  <meta property="og:title" content="BEUHub – Terms &amp; Conditions" />
+  <meta property="og:description" content="Read the Terms &amp; Conditions for using the BEUHub app." />
+  <meta property="og:type" content="website" />
+  <meta name="color-scheme" content="light dark" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #0a0a0a;
+      --muted: #5b6470;
+      --card: #ffffff;
+      --border: #e6e8eb;
+      --link: #0a2342;
+      --accent: #f2a541; /* BEUHub palette */
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0d10;
+        --fg: #e7eaf0;
+        --muted: #9aa3ad;
+        --card: #111418;
+        --border: #1d232b;
+        --link: #9db4ff;
+        --accent: #f2a541;
+      }
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+      padding-bottom: 12px;
+    }
+    h1 { font-size: clamp(1.6rem, 2.2vw + 1rem, 2.4rem); margin: 0 0 6px; }
+    .sub { color: var(--muted); font-size: 0.95rem; }
+    h2 { font-size: 1.2rem; margin-top: 1.8rem; }
+    section { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 18px 18px 6px; margin: 14px 0; }
+    ul { padding-left: 18px; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; background: color-mix(in srgb, var(--accent) 15%, transparent); color: var(--fg); border: 1px solid var(--border); font-size: 0.8rem; }
+    footer { margin-top: 36px; color: var(--muted); font-size: 0.9rem; }
+    .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; letter-spacing: .2px; }
+    .brand-mark { width: 28px; height: 28px; border-radius: 8px; background: linear-gradient(135deg, var(--link), var(--accent)); opacity: .9; }
+    .cta-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+    .btn { display: inline-block; border: 1px solid var(--border); padding: 8px 12px; border-radius: 10px; text-decoration: none; color: var(--fg); background: var(--card); }
+    .btn.primary { background: var(--accent); border-color: color-mix(in srgb, var(--accent) 70%, var(--border)); }
+    @media print {
+      header, .cta-row { display: none; }
+      body { background: white; color: black; }
+      section { border: 1px solid #ccc; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Terms & Conditions</h1>
-  <p>Last updated: 15 August 2025</p>
-  <p>
-    By using BEUHub, you agree to the following terms:
-  </p>
-  <ul>
-    <li>BEUHub is provided for educational purposes only.</li>
-    <li>We provide publicly available question papers, results, and holiday updates.</li>
-    <li>BEUHub is not an official app of Bihar Engineering University.</li>
-    <li>Users are responsible for how they use the app content.</li>
-  </ul>
+  <div class="container">
+    <header>
+      <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span>BEUHub</span></div>
+      <h1>Terms &amp; Conditions (T&amp;C) – BEUHub</h1>
+      <div class="sub">Last Updated: <strong>15/08/2025</strong></div>
+      <div class="cta-row">
+        <a class="btn" href="#contact">Jump to Contact</a>
+        <a class="btn primary" href="#tc">Read Terms</a>
+      </div>
+    </header>
+
+    <main id="tc" aria-labelledby="title">
+      <p>Welcome to <strong>BEUHub</strong>! By downloading, accessing, or using our app, you agree to the following Terms &amp; Conditions. Please read them carefully.</p>
+
+      <section>
+        <h2>1. Use of the App</h2>
+        <ul>
+          <li>BEUHub is designed to provide educational resources, previous year question papers, holidays, results, and related student information.</li>
+          <li>You agree to use the app only for lawful purposes and in a manner that does not infringe the rights of others.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>2. Content</h2>
+        <ul>
+          <li>The app may provide links to external websites (e.g., university websites, PDF resources, or Google search results). We are <strong>not responsible</strong> for the accuracy, reliability, or availability of external content.</li>
+          <li>All materials are provided <strong>“as is”</strong> for informational and educational purposes only.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Privacy</h2>
+        <ul>
+          <li>We do not collect personal information such as name, email, or phone number unless you choose to contact us directly (e.g., via email).</li>
+          <li>For more details, please review our <a href="https://chandrakant558.github.io/beuhub-privacy/" target="_blank" rel="noopener">Privacy Policy</a>.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Advertisements</h2>
+        <ul>
+          <li>The app may display third-party advertisements (e.g., Google AdMob or affiliate ads).</li>
+          <li>We are not responsible for the content or availability of third-party ads.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Disclaimer</h2>
+        <ul>
+          <li>BEUHub is <strong>not an official app</strong> of Bihar Engineering University (BEU).</li>
+          <li>We do not represent or claim to be affiliated with the university.</li>
+          <li>The app is provided <strong>without warranties</strong> of any kind (express or implied).</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>6. Limitation of Liability</h2>
+        <ul>
+          <li>We are not liable for any direct or indirect damages, including data loss, device issues, or misinterpretation of provided information.</li>
+          <li>Use of the app is entirely at your own risk.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Changes to Terms</h2>
+        <ul>
+          <li>We may update these Terms &amp; Conditions from time to time.</li>
+          <li>Continued use of the app after updates means you accept the revised terms.</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions or concerns about these Terms &amp; Conditions, please contact us:</p>
+        <p>📧 Email: <a href="mailto:beuhub0@gmail.com">beuhub0@gmail.com</a></p>
+      </section>
+
+      <p class="badge" aria-label="Info">BEUHub · Educational resources</p>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> BEUHub. All rights reserved.</p>
+      <p><a href="#tc">Back to top</a></p>
+    </footer>
+  </div>
+
+  <script>
+    // update year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
